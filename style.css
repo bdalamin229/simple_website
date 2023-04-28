@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* body {
+    background: url("photos/123.jpg") 0% 0% / cover no-repeat;
+} */
+
+li {
+    list-style: none;
+}
+
+.menu_part {
+    background-color: rgb(26, 25, 25);
+    color: rgb(241, 241, 241);
+    top: 0px;
+}
+
+.alignment {
+    width: 80%;
+    margin: auto;
+}
+
+.menu_con_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_con_main .logo h1 span {
+    color: red;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 15px 15px;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.menu li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 255, 255, 0.58);
+    border-radius: 5px;
+}
+
+.about {
+    background: rgb(241, 241, 241);
+    height: 700px;
+    width: 100%;
+}
+
+.about h1 {
+    padding: 75px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.write_sec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.my-detel h6 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.my-detel h2 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    line-height: 55px;
+    letter-spacing: -1px;
+}
+
+.my-detel h2 span {
+    color: rgba(32, 183, 32, 0.773);
+}
+
+.my-detel p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.my-detel .detel-btn {
+    padding: 15px 45px;
+    margin: 25px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(32, 183, 32, 0.773);
+    border: none;
+    box-sizing: border-box;
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.service {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.service h1 {
+    padding: 75px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.service_part_1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service_part_1 .web_design {
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(26, 25, 25, 0.694);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.service_part_1 .web_design h3 {
+    font-size: 20px;
+    padding: 25px 0px;
+}
+
+.service_part_1 .web_design p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.service_part_1 .web_design button {
+    padding: 15px 45px;
+    margin: 25px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    box-sizing: border-box;
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.service_part_1 .web_develop {
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(26, 25, 25, 0.694);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.service_part_1 .web_develop h3 {
+    font-size: 20px;
+    padding: 25px 0px;
+}
+
+.service_part_1 .web_develop p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.service_part_1 .web_develop button {
+    padding: 15px 45px;
+    margin: 25px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    box-sizing: border-box;
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.service_part_1 .grafix_design {
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(26, 25, 25, 0.694);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.service_part_1 .grafix_design h3 {
+    font-size: 20px;
+    padding: 25px 0px;
+}
+
+.service_part_1 .grafix_design p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.service_part_1 .grafix_design button {
+    padding: 15px 45px;
+    margin: 25px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    box-sizing: border-box;
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: rgba(0, 255, 255, 0.58);
+    border-radius: 5px;
+}
+
+.dropdown li {
+    position: relative;
+}
+
+.subdrop {
+    display: none;
+    position: absolute;
+    background: rgba(0, 255, 255, 0.58);
+    top: 0px;
+    left: 100%;
+    border-radius: 5px;
+}
+
+.menu li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li:hover .subdrop {
+    display: block;
+}
+
+.detel_con {
+    padding: 215px 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.detel_con h1 {
+    font-size: 55px;
+    padding-bottom: 35px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.detel_con p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    line-height: 21px;
+}
+
+.detel_con span {
+    color: red;
+}
+
+.contact_part {
+    padding: 60px 0px;
+    background-color: #eae7e7;
+}
+
+.contact_con_aria h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contact_aria {
+    background: rgba(128, 128, 128, 0.447);
+    min-height: 400px;
+    width: 350px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact_con_aria p {
+    color: rgb(255, 255, 255);
+    padding-bottom: 8px;
+    font-family: "Work Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.contact_con_aria {
+    padding: 10px 0px;
+}
+
+.form_input {
+    height: 35px;
+    width: 100%;
+    outline: 0px;
+    border: none;
+    padding-left: 6px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.contact_con_aria textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    outline: 0px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(114, 109, 109);
+}
+
+.contact_con_aria button {
+    height: 35px;
+    width: 150px;
+    background: teal;
+    font-size: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact_con_aria button:hover {
+    background: rgb(202, 38, 65);
+    color: white;
+}
+
+
+/* footer part */
+.footer_part {
+    height: 35px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer_part footer {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
